@@ -1,0 +1,25 @@
+body {
+    background-color: #ffffff;; /* Light blue background color */
+}
+
+.container {
+    background-color: #ffffff;; /* White background for the content */
+    border-radius: 10px; /* Rounded corners for the content */
+    padding: 20px; /* Add some padding for spacing */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.img-container {
+    background-color: #ffffff; /* White background for the image container */
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 10px; /* Rounded corners for the image container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.knowledge-logo {
+    text-align: center;
+}
+
+.knowledge-logo img {
+    max-width: 100px; /* Limit the maximum width of knowledge logos */
+}
