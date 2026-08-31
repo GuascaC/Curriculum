@@ -1,211 +1,396 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programmer Curriculum</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./styless.css"> <!-- Use a custom stylesheet -->
+    <meta name="description" content="Currículum de Cristian Mauricio Guasca: desarrollador backend y full stack en Bogotá. APIs, PostgreSQL, Python y herramientas internas para logística.">
+    <meta name="author" content="Cristian Mauricio Guasca">
+    <meta name="theme-color" content="#0e3a5d">
+    <meta property="og:title" content="Cristian Mauricio Guasca — Currículum">
+    <meta property="og:description" content="Desarrollador backend y full stack. APIs, datos, automatización y herramientas internas.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./Foto.jpg">
+    <title>Cristian Mauricio Guasca — Currículum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styless.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230e3a5d'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia,serif' font-size='14' fill='%23f3efe6'%3ECG%3C/text%3E%3C/svg%3E">
 </head>
 <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-<div class="container mt-5">
-    <div class="text-center">
-        <h1 class="text-primary">Programmer Curriculum</h1>
-    </div>
-
-    <div class="row">
-        <div class="col-md-6 text-center">
-            <img src="./Foto.jpg" alt="Programmer Photo" class="img-fluid rounded-circle" width="200">
-        </div>        
-        <div class="col-md-6">
-            <section class="mb-5 h-100 d-flex flex-column">
-                <h2 class="section-header">Personal Information</h2>
-                <ul class="list-unstyled">
-                    <li>Name: Cristian Mauricio Guasca</li>
-                    <li>Email: mauricioguasca11@gmail.com</li>
-                    <li>Phone: (+57) 3015943829</li>
-                    <li>
-                        WhatsApp: <a href="https://wa.me/+573015943829">Send a Message</a>
-                    </li>
-                    <li>
-                        LinkedIn: <a href="https://www.linkedin.com/in/cristian-guasca-gutierrez-024017267/">LinkedIn Profile</a>
-                    </li>
-                    <li>
-                        GitHub: <a href="https://github.com/GuascaC">GitHub Profile</a>
-                    </li>
-                    <li>
-                        Annexes: <a href="https://drive.google.com/drive/folders/1-mg78YhqkkzeH8Wfv7wDYvz4Qjp3Sg5v?usp=drive_link">Annexes</a>
-                    </li>
-                </ul>
-            </section>
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a class="brand" href="#inicio">CG</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+                <span class="nav-toggle-bar"></span>
+                <span class="sr-only">Abrir menú</span>
+            </button>
+            <nav id="menu-principal" class="site-nav" aria-label="Principal">
+                <a href="#experiencia">Experiencia</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#stack">Stack</a>
+                <a href="#recomendaciones">Recomendaciones</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <div class="row">
-        <div class="col-md-6">
-            <h2 class="section-header">Projects</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <li>
-                        <div class="knowledge-logo">
-                            <img src="./PHP-logo.svg.png" alt="PHP Logo">
-                            PHP
-                        </div>
-                    </li>
-                    <li>
-                        <div class="knowledge-logo">
-                            <img src="./Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript Logo">
-                            JavaScript
-                        </div>
-                    </li>
-                    <li>
-                        <div class="knowledge-logo">
-                            <img src="./Python-logo-notext.svg.png" alt="Python Logo">
-                            Python
-                        </div>
-                    </li>
-                </div>
-                <ul class="list-unstyled">
-                    <li>
-                        <div class="knowledge-logo">
-                            <img src="./ISO_C++_Logo.svg.png" alt="C++ Logo">
-                            C++
-                        </div>
-                    </li>
-                    <li>
-                        <div class="knowledge-logo">
-                            <img src="./1200px-Laravel.svg.png" alt="Laravel Logo">
-                            Laravel
-                        </div>
-                    </li>
-                    <li>
-                        <div class="knowledge-logo">
-                            <img src="./Imagen1.png" alt="SQL Logo">
-                            SQL
-                        </div>
-                    </li>
-                </ul>
-            </section>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <section class="mb-5 h-100 d-flex flex-column">
-            <h2 class="section-header">Work Experience</h2>
-            <ul class="list-unstyled">
-                <li>
-                    Backend Developer and Project Leader(Solutions Factory)
-                    <p>Worked on web application development using JavaScript, PHP, and Laravel.</p>
-                    <p>Duration: 2022 - 2023 (5 Months)</p>
-                </li>
-                <li>
-                    Incident Management Analyst (Teleperformance)
-                    <p>Duration: 2023 - 2023 (3 weeks)</p>
-                </li>
-                <li>
-                    Trainee (Ciel Engineering)
-                    <p>Duration: 2023 - 2024 (3 months)</p>
-                </li>
-            </ul>
-            <h2 class="section-header">Projects</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="project-card">
-                        <h4 class="card-title">Interview process management</h4>
-                        <p class="card-text">Coformation Area</p>
+    <main id="contenido">
+        <section id="inicio" class="hero">
+            <div class="wrap hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Bogotá, Colombia</p>
+                    <h1>Cristian Mauricio Guasca</h1>
+                    <p class="role">Desarrollador backend · Full stack</p>
+                    <p class="lead">
+                        Ingeniero de Software. Diseño APIs, automatizaciones y
+                        herramientas internas para logística, datos y operación.
+                        Trabajo sobre todo con PostgreSQL, Python y productos
+                        que resuelven un problema real.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-ghost" href="https://wa.me/573015943829" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                        <a class="btn btn-ghost" href="https://www.linkedin.com/in/cristian-guasca-gutierrez-024017267/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a class="btn btn-ghost" href="https://github.com/GuascaC" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="project-card">
-                        <h4 class="card-title">Labor certificate generator</h4>
-                        <p class="card-text">Human talent area</p>
-                    </div>
+                <figure class="hero-photo">
+                    <img src="./Foto.jpg" alt="Retrato de Cristian Mauricio Guasca" width="360" height="360">
+                </figure>
+            </div>
+        </section>
+
+        <section class="stats reveal" aria-label="Resumen profesional">
+            <div class="wrap stats-grid">
+                <div class="stat">
+                    <span class="stat-value">1+</span>
+                    <span class="stat-label">año como desarrollador</span>
                 </div>
-                <div class="col-md-6">
-                    <div class="project-card">
-                        <h4 class="card-title">Jobness</h4>
-                        <p class="card-text">Employment and entrepreneurship</p>
-                    </div>
+                <div class="stat">
+                    <span class="stat-value">1.5+</span>
+                    <span class="stat-label">años de prácticas</span>
                 </div>
-                <div class="col-md-6">
-                    <div class="project-card">
-                        <h4 class="card-title">Yacht sales and meetings</h4>
-                        <p class="card-text"></p>
+                <div class="stat">
+                    <span class="stat-value">Jr</span>
+                    <span class="stat-label">backend y full stack</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">Ing.</span>
+                    <span class="stat-label">ingeniería de software</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="section reveal">
+            <div class="wrap">
+                <header class="section-head">
+                    <p class="section-index">01</p>
+                    <h2>Experiencia</h2>
+                </header>
+
+                <ol class="timeline">
+                    <li>
+                        <div class="timeline-meta">
+                            <p class="when">Actualidad</p>
+                            <p class="where">Pasarex · Bogotá</p>
+                        </div>
+                        <div class="timeline-body">
+                            <h3>Desarrollador backend</h3>
+                            <p>APIs, automatización, datos y herramientas internas para mensajería y logística. PostgreSQL, Python, R e integraciones de operación y facturación.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-meta">
+                            <p class="when">2022 — 2023 · 5 meses</p>
+                            <p class="where">Fábrica de Soluciones</p>
+                        </div>
+                        <div class="timeline-body">
+                            <h3>Desarrollador backend y líder de proyecto</h3>
+                            <p>Desarrollo de aplicaciones web con JavaScript, PHP y Laravel. Coordinación del equipo en Fábrica de Soluciones.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-meta">
+                            <p class="when">2023 · 3 semanas</p>
+                            <p class="where">Teleperformance</p>
+                        </div>
+                        <div class="timeline-body">
+                            <h3>Analista de gestión de incidentes</h3>
+                            <p>Seguimiento y atención de incidentes en operación.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-meta">
+                            <p class="when">2023 — 2024 · 3 meses</p>
+                            <p class="where">Ciel Engineering</p>
+                        </div>
+                        <div class="timeline-body">
+                            <h3>Trainee</h3>
+                            <p>Práctica en ingeniería y apoyo a proyectos del equipo.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="formacion" class="section section-alt reveal">
+            <div class="wrap">
+                <header class="section-head">
+                    <p class="section-index">02</p>
+                    <h2>Formación</h2>
+                </header>
+                <div class="edu-grid">
+                    <article class="edu-card">
+                        <h3>Ingeniería de Software</h3>
+                        <p>Graduado. Enfoque en backend, APIs, datos y herramientas internas.</p>
+                    </article>
+                    <article class="edu-card">
+                        <h3>International Programme of Engineering</h3>
+                        <p>DHBW Mosbach. Programa internacional: sistemas embebidos, trabajo en equipo y presentación de proyectos.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section reveal">
+            <div class="wrap">
+                <header class="section-head">
+                    <p class="section-index">03</p>
+                    <h2>Proyectos</h2>
+                </header>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <p class="project-area">Coformación</p>
+                        <h3>Gestión del proceso de entrevistas</h3>
+                        <p>Aplicación para organizar y dar seguimiento al proceso de entrevistas.</p>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-area">Talento humano</p>
+                        <h3>Generador de certificados laborales</h3>
+                        <p>Generación de certificados laborales para el área de talento humano.</p>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-area">Empleo</p>
+                        <h3>Jobness</h3>
+                        <p>Plataforma de empleo y emprendimiento.</p>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-area">Comercial</p>
+                        <h3>Ventas y reuniones de yates</h3>
+                        <p>Sitio para ventas y coordinación de reuniones. <a href="https://github.com/GuascaC/yates">Repositorio</a></p>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-area">Agenda</p>
+                        <h3>Roderick Grooming</h3>
+                        <p>App de citas con Next.js, React, Tailwind y Google Calendar OAuth.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="section section-alt reveal">
+            <div class="wrap">
+                <header class="section-head">
+                    <p class="section-index">04</p>
+                    <h2>Stack</h2>
+                </header>
+                <div class="stack-groups">
+                    <div>
+                        <h3>Backend</h3>
+                        <ul class="chips">
+                            <li>Python</li>
+                            <li>C# / .NET</li>
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>Node.js</li>
+                            <li>REST APIs</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Datos</h3>
+                        <ul class="chips">
+                            <li>PostgreSQL</li>
+                            <li>SQL</li>
+                            <li>R</li>
+                            <li>Shiny</li>
+                            <li>dplyr</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Frontend</h3>
+                        <ul class="chips">
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Next.js</li>
+                            <li>Tailwind</li>
+                            <li>HTML / CSS</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Herramientas</h3>
+                        <ul class="chips">
+                            <li>Git</li>
+                            <li>Cron</li>
+                            <li>Vercel</li>
+                            <li>Google APIs</li>
+                            <li>OAuth2</li>
+                            <li>C++</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-    </div>
-    <div class="col-md-12 d-flex align-items-center justify-content-center">
-        <section class="mb-5 h-100 d-flex flex-column">
-            <h2 class="section-header">Reviews</h2>
-            <ul class="list-unstyled">
-                <li>
-                    <a href="https://www.linkedin.com/in/katherine-cruz-cabrera-1b607a23b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recommendations_details%3B8tT8qAe9STuCqSI5QoYUzA%3D%3D">Katherine Cruz Cabrera</a>
-                    <p>Excelente estudiante, con una preparación excepcional! 
-                        Es comprometido con su estudio y trabajo... realiza aprendizaje empíricamente.</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/adan-beltran-gomez-09039035?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recommendations_details%3B8tT8qAe9STuCqSI5QoYUzA%3D%3D">Adan Beltran Gomez</a>
-                    <p>Estudiante proactivo y atento a buscar las mejores prácticas para mejorar su desempeño en ingeniería de software.</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/andrea-rodr%C3%ADguez-7a2355209?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recommendations_details%3B8tT8qAe9STuCqSI5QoYUzA%3D%3D">Andrea Rodríguez</a>
-                    <p>Es una persona muy comprometida, cumplida, y muy dedicada a su trabajo.</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/ricardo-vargas-82b92418?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recommendations_details%3B8tT8qAe9STuCqSI5QoYUzA%3D%3D">Ricardo Vargas</a>
-                    <p>Una gestión muy buena y responsable</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/kelliie?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recommendations_details%3B8tT8qAe9STuCqSI5QoYUzA%3D%3D">Kellyn Delgado Jaimes</a>
-                    <p>Cristian ha trabajado en Fábrica de soluciones destacándose por su respeto, puntualidad, disposición, trabajo en equipo, no obstante su buen desempeño en desarrollo de aplicaciones con Laravel. También ha sido mi estudiante siendo excelente.</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/santiago-joya-medina-5b490624a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recommendations_details%3B8tT8qAe9STuCqSI5QoYUzA%3D%3D">Santiago Joya Medina</a>
-                    <p>Como compañero de trabajo, Cristian resalta por su organización, y eficacia a la hora de cumplir sus objetivos, es un gran apoyo como desarrolador web backend, siempre dispuesto a seguir aprendiendo</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/camilo-buitrago-mart%C3%ADn-320233174?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recommendations_details%3B8tT8qAe9STuCqSI5QoYUzA%3D%3D">Camilo Buitrago Martín</a>
-                    <p>Como docente de Cristian en el área de Emprendimiento e Innovación, puedo asegurar que Cristian no solo tiene las habilidades académicas y profesionales que garantizarán logros para las organizaciones donde él sea parte; sino que sus habilidades sociales, su capacidad de empatizar con el otro y su entorno. Un gran ser humano.</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/fernandagomez19?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recommendations_details%3B8tT8qAe9STuCqSI5QoYUzA%3D%3D">Fernanda Gomez</a>
-                    <p>Cristian se destaco en su trabajo por su compromiso y actitud frente a cada reto dentro de los proyectos, tiene conocimientos en backend muy fundamentales, adicional siempre esta en pro de ayudar y aprender por su cuenta. Reconozco su liderazgo en su equipo de trabajo, responsable y puntual.</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/marcel-ritzert-6173a5279/">Marcel Ritzert</a>
-                    <p>I really enjoyed studying and working together with Cristian.
-                        He is a very friendly, smart, helpful and reliable friend.
-                        His knowledge about backend development and database management is astonishing. 
-                        It was a pleasure meeting you, for your personal and working future, I wish you only the best.</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/ruben-medina-serrano-7bb84313/">Ruben Medina Serrano</a>
-                    <p>I am pleased to recommend Cristian, a standout student in the International Program of Engineering. Throughout our lectures program, Cristian has demonstrated exceptional academic performance, excelling in all coursework and displaying a deep understanding of the subject matter.
-                        What truly sets Cristian apart is his ability to deliver tasks on-time and his software skills. He is a natural communicator who can perform tasks efficiently and present them on public in a proper way, ensuring the success of any group project.
-                        Moreover, Cristian possesses outstanding software skills. His professionalism and approachable demeanor make him a pleasure to work with.
-                        Given Cristian's strong performance in his studies and excellent software skills, I have no doubt he will be a valuable asset to any future employer. I truly recommend Cristian for any opportunities he may pursues and wish him all the best for his future.</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/reynosoirene/">Irene Reynoso Anguiano</a>
-                    <p>Tuve el placer de tener a Cristian como estudiante en la materia de Sistemas Embebidos en la DHBW. Cristian destacó por su capacidad para aprender rápidamente nuevos lenguajes de programación, como Arduino, entre otros. Adicionalmente, demostró un buen espíritu de colaboración pues compartió su conocimiento con sus compañeros. Su capacidad para explicar conceptos difíciles de manera clara y paciente ayudó a crear un ambiente de aprendizaje positivo y colaborativo.
 
-                        Creo que Cristian puede ser un miembro valioso en cualquier equipo del cual forme parte. Su rápido aprendizaje y disposición para ayudar lo hacen sobresalir como un profesional prometedor en su campo.</p>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/viktoria-gfrerer-85465724a/">Viktoria Gfrerer</a>
-                    <p>I am glad to have had the opportunity to get to know Cristian through the IPE programme at the DHBW Mosbach University. His open-minded, communicative and cheerful nature has put a smile on the faces of many of our fellow students, both in the classroom and outside. Cristian stood out above all for his confident presentation style.</p>
-                </li>
-            </ul>
+        <section id="recomendaciones" class="section reveal">
+            <div class="wrap">
+                <header class="section-head">
+                    <p class="section-index">05</p>
+                    <h2>Recomendaciones</h2>
+                    <p class="section-note">Textos originales de LinkedIn. Cada tarjeta enlaza al perfil de quien recomienda.</p>
+                </header>
+                <div class="review-grid">
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/katherine-cruz-cabrera-1b607a23b">Katherine Cruz Cabrera</a>
+                        <p>Excelente estudiante, con una preparación excepcional. Es comprometido con su estudio y trabajo… realiza aprendizaje empíricamente.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/adan-beltran-gomez-09039035">Adan Beltran Gomez</a>
+                        <p>Estudiante proactivo y atento a buscar las mejores prácticas para mejorar su desempeño en ingeniería de software.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/andrea-rodríguez-7a2355209">Andrea Rodríguez</a>
+                        <p>Es una persona muy comprometida, cumplida, y muy dedicada a su trabajo.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/ricardo-vargas-82b92418">Ricardo Vargas</a>
+                        <p>Una gestión muy buena y responsable.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/kelliie">Kellyn Delgado Jaimes</a>
+                        <p>Cristian ha trabajado en Fábrica de soluciones destacándose por su respeto, puntualidad, disposición, trabajo en equipo, no obstante su buen desempeño en desarrollo de aplicaciones con Laravel. También ha sido mi estudiante siendo excelente.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/santiago-joya-medina-5b490624a">Santiago Joya Medina</a>
+                        <p>Como compañero de trabajo, Cristian resalta por su organización, y eficacia a la hora de cumplir sus objetivos, es un gran apoyo como desarrollador web backend, siempre dispuesto a seguir aprendiendo.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/camilo-buitrago-martín-320233174">Camilo Buitrago Martín</a>
+                        <p>Como docente de Cristian en el área de Emprendimiento e Innovación, puedo asegurar que Cristian no solo tiene las habilidades académicas y profesionales que garantizarán logros para las organizaciones donde él sea parte; sino que sus habilidades sociales, su capacidad de empatizar con el otro y su entorno. Un gran ser humano.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/fernandagomez19">Fernanda Gomez</a>
+                        <p>Cristian se destacó en su trabajo por su compromiso y actitud frente a cada reto dentro de los proyectos, tiene conocimientos en backend muy fundamentales, adicional siempre está en pro de ayudar y aprender por su cuenta. Reconozco su liderazgo en su equipo de trabajo, responsable y puntual.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/marcel-ritzert-6173a5279">Marcel Ritzert</a>
+                        <p>I really enjoyed studying and working together with Cristian. He is a very friendly, smart, helpful and reliable friend. His knowledge about backend development and database management is astonishing.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/ruben-medina-serrano-7bb84313">Ruben Medina Serrano</a>
+                        <p>I am pleased to recommend Cristian, a standout student in the International Program of Engineering. He has demonstrated exceptional academic performance and outstanding software skills. He is a natural communicator who can perform tasks efficiently and present them in public.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/reynosoirene">Irene Reynoso Anguiano</a>
+                        <p>Tuve el placer de tener a Cristian como estudiante en la materia de Sistemas Embebidos en la DHBW. Destacó por su capacidad para aprender rápidamente nuevos lenguajes, como Arduino, y por compartir su conocimiento con sus compañeros.</p>
+                    </article>
+                    <article class="review-card">
+                        <a href="https://www.linkedin.com/in/viktoria-gfrerer-85465724a">Viktoria Gfrerer</a>
+                        <p>I am glad to have had the opportunity to get to know Cristian through the IPE programme at the DHBW Mosbach University. His open-minded, communicative and cheerful nature stood out, as well as his confident presentation style.</p>
+                    </article>
+                </div>
+            </div>
         </section>
-    </div>
-    
-</div>
 
-<!-- Include Bootstrap and jQuery for animations -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <section id="contacto" class="contact reveal">
+            <div class="wrap contact-inner">
+                <header class="section-head invert">
+                    <p class="section-index">06</p>
+                    <h2>Contacto</h2>
+                </header>
+                <p class="contact-lead">Si quieres hablar de un rol, una automatización o una herramienta interna, escríbeme.</p>
+                <ul class="contact-list">
+                    <li>
+                        <span>Correo</span>
+                        <a href="mailto:mauricioguasca11@gmail.com">mauricioguasca11@gmail.com</a>
+                    </li>
+                    <li>
+                        <span>Teléfono</span>
+                        <a href="tel:+573015943829">+57 301 594 3829</a>
+                    </li>
+                    <li>
+                        <span>WhatsApp</span>
+                        <a href="https://wa.me/573015943829">Enviar mensaje</a>
+                    </li>
+                    <li>
+                        <span>LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/cristian-guasca-gutierrez-024017267/">Perfil</a>
+                    </li>
+                    <li>
+                        <span>GitHub</span>
+                        <a href="https://github.com/GuascaC">GuascaC</a>
+                    </li>
+                    <li>
+                        <span>Anexos</span>
+                        <a href="https://drive.google.com/drive/folders/1-mg78YhqkkzeH8Wfv7wDYvz4Qjp3Sg5v?usp=drive_link">Drive</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <p>Cristian Mauricio Guasca</p>
+            <p>Currículum · <span id="year"></span></p>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            var toggle = document.querySelector(".nav-toggle");
+            var nav = document.getElementById("menu-principal");
+            var year = document.getElementById("year");
+
+            if (year) year.textContent = String(new Date().getFullYear());
+
+            if (toggle && nav) {
+                toggle.addEventListener("click", function () {
+                    var open = nav.classList.toggle("is-open");
+                    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+                });
+
+                nav.querySelectorAll("a").forEach(function (link) {
+                    link.addEventListener("click", function () {
+                        nav.classList.remove("is-open");
+                        toggle.setAttribute("aria-expanded", "false");
+                    });
+                });
+            }
+
+            document.documentElement.classList.add("js-ready");
+
+            var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+            if (!reduceMotion && "IntersectionObserver" in window) {
+                var observer = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("is-visible");
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+
+                document.querySelectorAll(".reveal").forEach(function (el) {
+                    observer.observe(el);
+                });
+            } else {
+                document.querySelectorAll(".reveal").forEach(function (el) {
+                    el.classList.add("is-visible");
+                });
+            }
+        })();
+    </script>
 </body>
 </html>
