@@ -277,6 +277,7 @@ html.js-ready .reveal.is-visible {
 .reveal.is-visible .project-card:nth-child(5),
 .reveal.is-visible .review-card:nth-child(5) { animation-delay: 0.33s; }
 
+.reveal.is-visible .project-card:nth-child(6),
 .reveal.is-visible .review-card:nth-child(n + 6) { animation-delay: 0.4s; }
 
 .reveal.is-visible .chips li:nth-child(1) { animation-delay: 0.05s; }
